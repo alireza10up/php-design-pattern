@@ -6,4 +6,8 @@ require __DIR__ . '/Coupon.php';
 $couponModel = new Coupon();
 $couponValidator = new CouponValidator($couponModel);
 
-$couponValidator->validate('xxxxxxxxxxx');
+try {
+    $couponValidator->validate('xxxxxxxxxxx');
+} catch (Exception $exception) {
+    echo $exception->getMessage();
+}
