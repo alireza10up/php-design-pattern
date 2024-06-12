@@ -7,4 +7,4 @@
 
 هدف اصلی این الگو جداسازی فرستنده‌ی درخواست از دریافت‌کننده‌ی نهایی است تا وابستگی بین آن‌ها کاهش یابد و امکان اضافه کردن، حذف یا تغییر ترتیب دستگیره‌ها بدون تغییر در فرستنده یا سایر دستگیره‌ها فراهم شود.
 
-![Chain Of Responsibility](ChainOfResponsibility.png)
+![Chain Of Responsibility](imgs/ChainOfResponsibility.png)
